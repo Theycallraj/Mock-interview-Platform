@@ -1,0 +1,91 @@
+# Pre Hire
+
+## About
+
+Pre Hire is an AI-powered mock interview platform that simulates real job interviews and provides instant feedback. The application uses advanced AI models to analyze your responses and help you improve your interview skills.
+
+## Features
+
+- **Personalized Interviews**: Customize your mock interview based on job role, experience level, and target company
+- **Smart Analysis**: Our AI analyzes your responses to provide detailed feedback and suggestions
+- **Comprehensive Feedback**: Receive a detailed report with strengths, areas for improvement, and an overall readiness score
+- **Multiple Question Types**: Practice with technical, behavioral, and company-specific questions
+- **Adjustable Length**: Choose between short (5 questions), medium (10 questions), or long (15 questions) interviews
+
+## Technologies Used
+
+- **Frontend**: React, TypeScript, TailwindCSS, Shadcn UI components
+- **Backend**: Node.js, Express
+- **AI Integration**: OpenAI API, Anthropic Claude API
+- **State Management**: TanStack Query (React Query)
+- **Routing**: Wouter
+- **Form Handling**: React Hook Form, Zod validation
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Create a `.env` file in the project root directory and add your API keys:
+   ```
+   OPENAI_API_KEY=your_openai_api_key
+   ANTHROPIC_API_KEY=your_anthropic_api_key
+   ```   
+   Note: The application will fall back to sample data if no API keys are provided.
+4. Start the development server with `npm run dev`
+5. Open your browser and navigate to `http://localhost:5000`
+
+## Usage
+
+1. **Set Up Your Interview**:
+   - Select your target job role
+   - Choose your experience level
+   - Optionally specify a target company
+   - Select question types and interview length
+
+2. **Take the Interview**:
+   - Answer each question in the chat interface
+   - Receive instant feedback after each response
+
+3. **Review Your Results**:
+   - See your overall readiness score
+   - Review strengths and areas for improvement
+   - Get personalized recommendations for future practice
+
+## API Configuration
+
+Pre Hire supports both OpenAI and Anthropic Claude models:
+
+- For OpenAI integration, add your API key to the `.env` file as `OPENAI_API_KEY`
+- For Anthropic Claude integration, add your API key as `ANTHROPIC_API_KEY`
+
+The application will automatically select the appropriate service based on available API keys.
+
+## Deployment
+
+The application can be easily deployed to platforms like Vercel, Netlify, or Replit.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Developed by Team Rebel
+- Powered by OpenAI and Anthropic Claude
+- UI components from Shadcn UI
+- Icons from Google Material Icons
+
+---
+
+Made with ❤️ by Team Rebel - The Developers
